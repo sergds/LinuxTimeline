@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Builds dist files from the current working branch.
 #
 # You can specify the version as first argument:
@@ -19,7 +19,7 @@ GC=
 PROJNAME='gldt'
 
 # Which files to include into the archive
-DISTFILES='gldt.csv gldt.conf CHANGELOG README.md LICENSE images build.sh CONTRIBUTING DISTRIBUTIONS.md'
+DISTFILES='gldt.csv gldt.conf CHANGELOG README.md LICENSE images build.sh CONTRIBUTING RELEASE.md'
 
 #
 ##########
